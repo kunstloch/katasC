@@ -26,6 +26,8 @@ public class DnaStrand
     StringBuilder dnaComplementary = new StringBuilder("");
     var symbols = dna.ToCharArray();
 
+    // Change to switch
+
     for (int i = 0; i < dna.Length; i++)
     {
       if (symbols[i].Equals('T'))
